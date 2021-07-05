@@ -1,6 +1,6 @@
 from tkinter import *
 window = Tk()
-windowbutton = Button(window , text = "LEFT", fg = 'PURPLE')
+windowbutton = Button(window , text = "LEFT", fg = 'ORANGE')
 windowbutton.pack(side = LEFT)
 window1button = Button(window , text = "Right", fg = 'Blue')
 window1button.pack(side = RIGHT)
