@@ -1,6 +1,6 @@
 from tkinter import *
 root = Tk()
-e1 = Entry (root , width = 50 , fg= 'black' , bg = 'white' ,borderwidth= 15)
+e1 = Entry (root , width = 50 , fg= '#e32636' , bg = 'white' ,borderwidth= 15)
 e1.pack()
 def myclick() :
     textoutput = 'Hello' +  e1.get()
