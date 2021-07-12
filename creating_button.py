@@ -7,9 +7,9 @@ myButton.pack()
 myButton1 = Button(create , text = "Click" , state = DISABLED)
 myButton1.pack()
 #button x and y padding
-myButton2 = Button(create , text ='Click'  , padx = 50)
+myButton2 = Button(create , text ='Click'  , ipadx=50)
 myButton2.pack()
-myButton3 = Button(create , text = "Click" , padx =50 ,pady = 50 )
+myButton3 = Button(create , text = "Click" , ipadx =50 , ipady=50 )
 myButton3.pack()
 
 create.mainloop()
