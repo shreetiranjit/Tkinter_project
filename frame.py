@@ -1,0 +1,10 @@
+from tkinter import *
+root = Tk()
+root.title('Image insertion')
+Frame = LabelFrame(root , text = 'My Frame', padx = 5 , pady = 5)
+Frame.pack(padx= 10 , pady = 10 )
+button = Button(Frame , text='click me ' )
+button.grid(row= 1 ,column = 0)
+button1 = Button(Frame,text = 'Do not click me ' )
+button1.grid(row=2 , column =3 )
+root.mainloop()
